@@ -1,0 +1,5 @@
+<?= $index % 2 === 0 ? '<div class="bg-rose-200 rounded-lg shadow-md">' : '<div class="bg-pink-200 rounded-lg shadow-md">' ?>
+
+
+
+

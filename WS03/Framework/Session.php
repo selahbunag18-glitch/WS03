@@ -2,6 +2,7 @@
 
 namespace Framework;
 
+
 class Session
 {
     /**

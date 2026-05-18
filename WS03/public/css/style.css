@@ -1033,3 +1033,16 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.profile-name {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    color: #FF6B6B;
+}

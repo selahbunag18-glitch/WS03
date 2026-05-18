@@ -11,8 +11,8 @@ use Framework\Session;
                 <div class="flex flex-col items-center">
                     <img src="https://ui-avatars.com/api/?name=<?= urlencode(Session::get('user')['name']) ?>&background=random&color=fff&rounded=true"
                         alt="Profile"
-                        style="width:70px; height:70px; border-radius:50%; box-shadow: 0 4px 6px rgba(0,0,0,0.4);">
-                    <span class="text-xs mt-1" style="color: #FF6B6B"><?= Session::get('user')['name'] ?></span>
+                        class="profile-img">
+                    <span class="profile-name"><?= Session::get('user')['name'] ?></span>
                 </div>
             <?php endif; ?>
             <h1 class="text-4xl font-bold tracking-wide">
